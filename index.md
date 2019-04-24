@@ -1,6 +1,6 @@
 ---
 title: Jérémie Cook
-layout: default
+layout: home
 summary: 
 ---
 
