@@ -6,10 +6,10 @@
         {% for mission in project.mission %}
             <li>{{ mission }}</li>
         {% endfor %}
+        </ul>
         <ul>
-        <ul>
+            <li><strong>Site :</strong> {{project.website}}</li>
             <li><strong>Client :</strong> {{project.client}}</li>
-            <li><strong>Site :</strong> {{project.url}}</li>
             <li><strong>Année :</strong> {{project.year}}</li>
         </ul>
     </div>

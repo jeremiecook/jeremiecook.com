@@ -1,17 +1,21 @@
 ---
 layout: default
 ---
+<div id="fullpage">
 
-<div class="hero">
-    Hero
-</div>
+    <div class="section hero">
+        Hero
+    </div>
 
-<div class="me">
-    Me
-</div>
+    <div class="section me">
+        Me
+    </div>
 
-<div class="projects">
     {% for project in site.projects %}
-        {% include project.html project = project %}
+        <div class="section">
+            {% include project.html project = project %}
+        </div>
     {% endfor %}
+
+
 </div>
