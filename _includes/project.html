@@ -1,3 +1,16 @@
 <div class="project">
-Projet !
+    <div class="project-infos">
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.description }}</p>
+        <ul>
+        {% for mission in project.mission %}
+            <li>{{ mission }}</li>
+        {% endfor %}
+        <ul>
+        <ul>
+            <li><strong>Client :</strong> {{project.client}}</li>
+            <li><strong>Site :</strong> {{project.url}}</li>
+            <li><strong>Année :</strong> {{project.year}}</li>
+        </ul>
+    </div>
 </div>
