@@ -40,4 +40,4 @@ collections_dir:
 collections:
   projects:
     output: true
-    permalink: /projects/:title.html
+    #permalink: /projects/:title.html

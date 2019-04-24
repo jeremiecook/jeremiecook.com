@@ -11,8 +11,7 @@ layout: default
 </div>
 
 <div class="projects">
-    {% assign projects = site.projects %}
-    {% for project in projects %}
+    {% for project in site.projects %}
         {% include project.html project = project %}
     {% endfor %}
 </div>
