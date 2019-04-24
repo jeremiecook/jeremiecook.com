@@ -6,7 +6,7 @@ title: jeremiecook.com
 email: hello@jeremiecook.com
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://jeremiecook.com # the base hostname & protocol for your site, e.g. http://example.com
+#url: https://jeremiecook.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jeremiecook
 github_username:  jeremiecook
 github_repository: jeremiecook/jeremiecook.com
@@ -26,9 +26,9 @@ lang: fr
 #include: ["_pages", "_redirects", "_headers"]
 #exclude: ["content/templates", "CONTRIBUTING.md", "rb", "vendor"]
 
-sass:
-  style: compressed
-  sass_dir: _sass
+#sass:
+#  style: compressed
+#  sass_dir: _sass
 
 #excerpt_separator: <!--more-->
 
@@ -40,4 +40,4 @@ collections_dir:
 collections:
   projects:
     output: true
-    permalink: /projects/:project.yaml
+    permalink: /projects/:title.html
