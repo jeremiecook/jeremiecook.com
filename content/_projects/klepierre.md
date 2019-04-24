@@ -1,3 +1,4 @@
+---
 name: Klépierre
 description: >
   L’un des leader de l’immobilier commercial, avec
@@ -10,3 +11,4 @@ mission:
 url: klepierre.com
 client: Klépierre
 year: 2016
+---
