@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
+
 <div class="hero">
-Hero
+    Hero
 </div>
 
 <div class="me">
+    Me
 </div>
 
 <div class="projects">
-{% for project in projects %}
-    {% include project.html project = project %}
-{% endfor %}
+    {% for project in projects %}
+        {% include project.html project = project %}
+    {% endfor %}
 </div>
