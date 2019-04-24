@@ -1,0 +1,43 @@
+# jeremiecook.com
+#
+
+# Site settings
+title: jeremiecook.com
+email: hello@jeremiecook.com
+description:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://jeremiecook.com # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jeremiecook
+github_username:  jeremiecook
+github_repository: jeremiecook/jeremiecook.com
+
+# Build settings
+#markdown: kramdown
+#plugins:
+#  - jekyll-redirect-from
+
+# Permettre de créer des publications datées dans le futur
+# future: true
+
+# Options du template
+
+lang: fr
+
+#include: ["_pages", "_redirects", "_headers"]
+#exclude: ["content/templates", "CONTRIBUTING.md", "rb", "vendor"]
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+#excerpt_separator: <!--more-->
+
+# Collections
+
+collections_dir:
+  content
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:project.yaml
